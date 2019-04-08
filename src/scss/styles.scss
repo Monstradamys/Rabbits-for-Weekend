@@ -1,0 +1,84 @@
+body {
+    background: antiquewhite;
+    background: url('../img/rabbit_pattern.jpg');
+}
+
+.div-authorization, .content {
+    margin: 0 auto;
+    width: 500px;
+    background: #fcb8c5;
+    color: #4c4c4c;
+}
+
+.div-authorization {
+    position: fixed;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.input {
+    height: 40px;
+    width: 49.5%;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    font-size: 18px;
+    border-width: 3px;
+    border-radius: 10%;
+    &:first-child {
+        margin-right: 0.5%;
+    }
+}
+
+.btn {
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    
+    border: 5px solid rgba(230, 230, 250, 0.2);
+    border-radius: 10%;
+    background: #fff;
+
+    &:hover {
+        cursor: pointer;
+        text-shadow: 1px .5px 1px #ccc;
+    }
+    
+}
+
+.btn-full {
+    width: 100%;
+}
+
+.btn-half {
+    width: 50%;
+}
+
+.btn-small {
+    height: 30px;
+    font-size: 14px;
+}
+
+.div-container {
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+.div-element, .form-update { 
+    font-size: 22px;
+    padding: 10px;
+}
+
+.div-element-info {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.header {
+    font-size: 24px;
+    text-align: center;
+}
