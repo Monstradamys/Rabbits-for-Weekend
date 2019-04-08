@@ -63,7 +63,6 @@ export default class App extends React.Component {
     }
 
     getAuthorization = () => {
-        console.log(this.state)
         const xhr = new XMLHttpRequest();
         xhr.open('POST', 'http://conquest.weekendads.ru/login_check');
         xhr.setRequestHeader('Content-Type', 'application/json')
